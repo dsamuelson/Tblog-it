@@ -1,3 +1,6 @@
+// setup the async function so the app doesn't stall while waiting for the response
+// this one adds a new comment using fetch along the appropriate route with the required data
+
 async function commentFormHandler(event) {
     event.preventDefault();
 

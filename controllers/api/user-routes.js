@@ -71,7 +71,7 @@ router.post('/', (req, res) => {
     });
 });
 
-// login route
+// login route confirms the user is able to login (different from presenting the login page)
 
 router.post('/login', (req, res) => {
     User.findOne({

@@ -2,6 +2,8 @@ const seedUsers = require('./user-seeds');
 const seedPosts = require('./post-seeds');
 const seedComments = require('./comment-seeds');
 
+// used only for testing to seed the needed tables
+
 const sequelize = require('../config/connection');
 
 const seedAll = async () => {

@@ -1,6 +1,8 @@
 const sequelize = require('../config/connection');
 const { User } = require('../models');
 
+// used only for testing to seed users
+
 const userdata = [
   {
     username: 'alesmonde0',

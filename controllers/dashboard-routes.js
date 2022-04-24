@@ -32,6 +32,7 @@ router.get('/', withAuth, (req, res) => {
         }
       ]
     })
+    //feed the data recieved into the dashboard template
       .then(dbPostData => {
         const posts = dbPostData.map(post => post.get({ plain: true }));
         res.render('dashboard', { posts, loggedIn: req.session.loggedIn });
@@ -41,6 +42,8 @@ router.get('/', withAuth, (req, res) => {
         res.status(500).json(err);
       });
   });
+
+// open the new post template page
 
   router.get('/new-post', withAuth, (req, res) => {
     if (!req.session.loggedIn) {
@@ -74,6 +77,7 @@ router.get('/', withAuth, (req, res) => {
         }
       ]
     })
+    // feed data from response into edit-post template
       .then(dbPostData => {
         if (dbPostData) {
           const post = dbPostData.get({ plain: true });

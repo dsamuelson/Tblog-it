@@ -1,5 +1,7 @@
 const { Post } = require('../models');
 
+// used only for testing to seed Posts
+
 const postdata = [
   {
     title: 'Donec posuere metus vitae ipsum.',
