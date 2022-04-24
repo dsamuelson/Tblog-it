@@ -41,6 +41,13 @@ router.get('/', withAuth, (req, res) => {
         res.status(500).json(err);
       });
   });
+
+  router.get('/new-post', withAuth, (req, res) => {
+    if (!req.session.loggedIn) {
+      res.redirect('homepage')
+    }
+    res.render('new-post', { loggedIn: req.session.loggedIn});
+  })
   
 // edit specific post by user route
 
