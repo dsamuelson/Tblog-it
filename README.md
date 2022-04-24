@@ -10,6 +10,9 @@
 - [Contact Information](#contact)
 - [License](#license)
 
+## URL:
+
+https://mighty-peak-35572.herokuapp.com/
 ## Description
 
 In this application you can create your own blog posts! It uses mysql on the backend to store and present your blog posts anywhere you go.
@@ -35,6 +38,8 @@ After you are logged in you are led to your dashboard where you can see any of t
 ![add page](/assets/images/add-page.png)
 
 You can also delete posts from the edit page
+
+There is some additional functionality inbound including the ability to change your username and password, update comments, delete comments, or remove your account entirely. Thank you very much for choosing this application.
 
 ## Contributors
 
