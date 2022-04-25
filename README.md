@@ -71,6 +71,8 @@ David Samuelson
 
 - goto localhost:3001
 
+- You will be logged out after 30 minutes
+
 ## Contact
 
 linksn.1fan@gmail.com

@@ -401,3 +401,24 @@ ul {
     color: darkblue;
 }
 
+.home-post {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    width: 80%;
+    margin: 0 auto;
+    color: var(--primary);
+    background-color: var(--dark);
+    border-radius: 5px;
+    height: max-content;
+    margin-bottom: 10px;
+}
+
+.home-post h2 {
+    margin: 0;
+    padding: 5px;
+}
+
+.home-post a {
+    color: var(--primary);
+}
